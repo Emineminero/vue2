@@ -11,8 +11,11 @@
 	$commands = array(
 		'echo $PWD',
 		'whoami',
-		'git push https://github.com/Emineminero/vue2',
-		
+		'git pull',
+		'git status',
+		'git submodule sync',
+		'git submodule update',
+		'git submodule status',
 	);
 
 	// Run the commands for output
